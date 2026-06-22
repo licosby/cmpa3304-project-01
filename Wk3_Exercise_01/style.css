@@ -1,0 +1,38 @@
+/* Universal box sizing */
+* {
+	box-sizing: border-box;
+}
+
+/* Page styling */
+body {
+	font-family: "Arial Rounded MT Bold", Arial, sans-serif;
+	background-color: #f0f4f8;   
+	color: #222;                 
+	margin: 40px;                
+	padding: 20px;              
+}
+
+/* Card styling */
+.card {
+	background: rgba(2, 70, 88, 0.744);
+	padding: 24px;
+	max-width: 600px;
+	margin: 0 auto;
+	border-radius: 16px;
+	box-shadow: 0 4px 12px rgba(44, 41, 41, 0.1);
+}
+
+.card h1 {
+  color: #ffffff;        /* white text for contrast */
+  font-size: 18px;       /* required size */
+  margin-bottom: 12px;   /* space between h1 and the paragraph */
+}
+
+.card p {
+  color: #ffffff;        /* white text for readability */
+  font-size: 14px;       /* clean, readable paragraph size */
+  line-height: 1.6;      /* improves readability */
+  margin: 0;             /* removes default weird spacing */
+}
+
+
