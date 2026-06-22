@@ -23,16 +23,16 @@ body {
 }
 
 .card h1 {
-  color: #ffffff;        /* white text for contrast */
-  font-size: 18px;       /* required size */
-  margin-bottom: 12px;   /* space between h1 and the paragraph */
+  color:  rgb(252, 252, 252);       
+  font-size: 20px;       
+  margin-bottom: 12px;   
 }
 
 .card p {
-  color: #ffffff;        /* white text for readability */
-  font-size: 14px;       /* clean, readable paragraph size */
-  line-height: 1.6;      /* improves readability */
-  margin: 0;             /* removes default weird spacing */
+  color:  rgba(255, 255, 255, 0.744);        
+  font-size: 14px;       
+  line-height: 1.6;      
+  margin: 0;             
 }
 
 
